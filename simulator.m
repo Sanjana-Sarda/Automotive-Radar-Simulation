@@ -1,8 +1,4 @@
 %%FMCW Waveform
-
-% Set random number generator for repeatable results
-rng(2017);
-
 % Compute hardware parameters from specified long-range requirements
 fc = 77e9;                                  % Center frequency (Hz) 
 c = physconst('LightSpeed');                % Speed of light in air (m/s)
